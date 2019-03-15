@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.EnteredController">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #008080;">
+            <children>
+                <AnchorPane fx:id="oldCat" layoutY="85.0" prefHeight="315.0" prefWidth="600.0" style="-fx-background-color: #E6E6FA;">
+                    <children>
+                        <Label layoutX="210.0" layoutY="31.0" prefHeight="45.0" prefWidth="178.0" text="Hello User!" textFill="#171b46">
+                            <font>
+                                <Font name="Berlin Sans FB Bold" size="33.0" />
+                            </font>
+                        </Label>
+                  <ImageView fitHeight="181.0" fitWidth="199.0" layoutX="210.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/oldCat.jpg" />
+                     </image>
+                  </ImageView>
+                    </children>
+                </AnchorPane>
+                <Label layoutX="190.0" layoutY="14.0" prefHeight="65.0" prefWidth="224.0" text="Welcome!" textFill="#46193d">
+                    <font>
+                        <Font name="Berlin Sans FB Bold" size="48.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>

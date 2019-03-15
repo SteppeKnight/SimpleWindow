@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CourseFromGosha:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CourseFromGosha_jar</output-path>
+    <root id="archive" name="CourseFromGosha.jar">
+      <element id="module-output" name="CourseFromGosha" />
+      <element id="extracted-dir" path="C:/Program Files/MySQL/mysql-connector-java-8.0.15/mysql-connector-java-8.0.15.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
